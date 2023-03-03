@@ -1,0 +1,101 @@
+.main{
+margin-top: 140px;
+
+}
+.loginbox
+{
+  box-shadow: 1px 0px 8px 0px #888888;
+  border: 1px solid black;
+padding: 15px;
+}
+body{
+  font-family: 'Gloock', serif;
+  font-family: 'Poppins', sans-serif;
+}
+.fa {
+    padding: 30px;
+    font-size: 30px;
+    width: 50px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+  }  
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #337ab7;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px)
+  {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+    .add{
+    text-align: right;
+    }
+    .table>thead>tr>th
+    {
+      background-color: #337ab7;
+      color: white;
+      font-size: 14px;
+    }
+    .navbar-default
+    {
+    background-color: #04AA6D;
+    }
+    .navbar-default .navbar-brand
+    {
+    color: white;
+    }
+    .navbar-default .navbar-nav>li>a
+    {
+    color: white;
+    }
+    .navbar-default .navbar-nav.navbar-right>li>a
+    {
+      padding-bottom: 0px;
+      padding-top: 0px;
+    }
+    .navbar{
+      margin-bottom: 0px;
+    }
